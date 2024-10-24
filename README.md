@@ -20,8 +20,9 @@ $ npm i
 
 Start your server with:
 
-```shell
 $ npm start
+```shell
+$ ($env:HTTPS = "true") -and (npm start)
 ```
 
 It should be available via `localhost:3000`.
